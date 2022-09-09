@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+   font-family:  'Open sans', sans-serif;
+}
+
+.container {
+    width: 1175px;
+    margin: auto;
+    display: flex;
+}
+
+/* Start Navbar */
+
+navbar {
+    margin: 20px;
+    display: flex;
+}
+
+navbar .container img {
+    padding-top: 25px;
+}
+
+navbar .container ul {
+ 
+   position: relative;
+    width:100%;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+navbar .container ul a {
+
+    display: inline;
+    width: 80px;    
+    text-align: center;
+    font-family: sans-serif;
+    margin: 40px 20px 0 0;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+
+}
+
+/* End Navbar */
+
+/* Start Flies Location */
+
+.fly {
+    display: flex;
+}
+
+.fly .container .text-fly {
+    width: 55%;
+}
+
+.fly .container .img-fly {
+    width: 45%;
+}
+
+.fly .container .img-fly img {
+    width: 100%;
+}
+
+.fly .container .text-fly h1 {
+    padding-top: 70px;
+    font-size: 35px;
+    width: 500px;
+}
+
+.fly .container .text-fly p {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+.fly .container .text-fly form input  {
+   margin-top: 40px;
+}
+
+.fly .text-fly form input:first-of-type {
+    padding: 10px ;
+    width: 300px;
+    
+}
+
+.fly .container .text-fly form input:last-of-type {
+    padding: 11px 50px;
+    background-color: #3065f8;
+    color:white;
+    border: none;
+}
+
+
+/* End Flies Location */
+
+/* Start Flies work */
+
+.img-paint {
+    background-image: url('../123.svg');
+    background-size: cover;
+    height: 100px;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.fly-work {
+    background-color: hsl(240, 40%, 98%);
+    padding-bottom: 80px;
+}
+
+
+.fly-work .container .work-text {
+     width: 55%;
+}
+
+.fly-work .container .work-img {
+    width: 45%;
+    margin-top: 130px;
+}
+
+.fly-work .container .work-img img  {
+    width: 100%;
+}
+
+
+.fly-work .container .work-text h1 {
+    padding-top: 40px;
+    font-size: 28px;
+    width: 500px;
+}
+
+.fly-work .container .work-text p {
+    font-size: 19px;
+    padding-top: 30px;
+}
+
+.fly-work .container .work-text  a {
+   margin-top: 30px;
+   display: inline-block;
+   text-decoration: none;
+   border-bottom: 1px solid green;
+   color: green;
+   font-size: 18px;
+}
+
+.fly-work .container .work-text .kyle {
+    width: 480px;
+    height: 270px;
+    margin-top: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    display: inline-block;
+}
+
+.fly-work .container .work-text .kyle img {
+    margin: 30px 0 0 40px;
+}
+
+.fly-work .container .work-text .kyle p {
+    font-family:'open sans';
+    font-size: 15px;
+    word-spacing: 2px;
+    margin-left: 40px;
+}
+
+.fly-work .container .work-text .kyle img:last-of-type {
+    border-radius: 50%;
+    width: 50px;
+    float: left;
+}
+
+
+.fly-work .container .work-text .kyle h2 {
+
+    margin-top: 32px;
+    margin-left: 100px;
+    font-size: 17px;
+    
+}
+
+.fly-work .container .work-text .kyle p:last-of-type {
+    padding: 3px 0 0 60px;
+    font-size: 12px;
+}
+/* End Flies work */
+
+/* Start help */
+
+.help {
+
+    display: flex;
+    height: 290px;
+    background-color: #585989;
+}
+
+.help .help-text,
+.help .help-email {
+    width: 50%;
+}
+
+
+.help .help-text h1 {
+    font-size: 30px;
+    color: white;
+}
+
+.help .help-text p {
+    color:white;
+    margin-top: 20px;
+    font-size: 17px;
+
+}
+
+.help .help-email input {
+    display: block;
+    margin-left: 100px;
+}
+
+.help .help-email input:first-of-type {
+    width: 430px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 3px;
+    border: none;
+}
+
+.help .help-email input:last-of-type {
+    margin-top: 20px;
+    width: 250px;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    background-color: #3065f8;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+
+/* End help */
+
+/* Start Footer */
+
+footer {
+    display: flex;
+    background-color: #070439;
+    padding-bottom: 80px;
+}
+
+footer section {
+    width: 33.3%;
+}
+
+footer .phone  {
+    margin-top: 60px;
+}
+
+footer .phone p {
+    color: white;
+    padding: 20px 0 0 55px
+}
+
+footer .about {
+    display: flex;
+    margin-left: 50px;
+}
+
+footer .about div {
+    width: 50%;
+}
+
+footer .about .one span:first-of-type {
+    margin-top: 130px;
+}
+
+footer .about .one span{
+    display: flex;
+    color: white;
+    margin: 20px 0;
+}
+
+footer .about .two span:first-of-type {
+    margin-top: 130px;
+}
+
+footer .about .two span{
+    display: flex;
+    color: white;
+    margin: 20px 0;
+}
+/* */
+
+footer .media {
+    display: flex;
+}
+
+footer .media img {
+    width: 40px;
+    height: 40px;
+    margin: 120px 0 0 50px
+}
+
+/* End Footer */
